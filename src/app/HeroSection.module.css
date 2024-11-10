@@ -1,0 +1,36 @@
+
+.heroSection {
+    text-align: center; 
+    background-color: saddlebrown; 
+    padding: 2rem 0; 
+    overflow: hidden;
+  }
+  
+  .heroContainer {
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 0 1rem; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+  }
+  
+  .heroImage {
+    width: 100%; 
+    height: auto; 
+    border-radius: 8px; 
+  }
+  
+  
+  @media (max-width: 768px) {
+    .heroImage {
+      width: 80%; 
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .heroImage {
+      width: 100%; 
+    }
+  }
+  

@@ -1,0 +1,48 @@
+
+.chocolateSection {
+  text-align: center; 
+  color: seagreen; 
+  padding: 2rem 0; 
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto; 
+  padding: 0 1rem; 
+}
+
+.chocolateWrap {
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: flex-start; 
+}
+
+.chocolateCard {
+  flex: 1 1 calc(25% - 1rem); 
+  max-width: calc(25% - 1rem); 
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
+  border-radius: 8px; 
+  margin: 0.5rem; 
+  background-color:darkgrey; 
+  transition: transform 0.3s; 
+}
+
+.chocolateCard:hover {
+  transform: scale(1.05); 
+}
+
+
+@media (max-width: 768px) {
+  .chocolateCard {
+    flex: 1 1 calc(50% - 1rem); 
+    max-width: calc(50% - 1rem);
+  }
+}
+
+@media (max-width: 480px) {
+  .chocolateCard {
+    flex: 1 1 100%; 
+    max-width: 100%;
+  }
+}

@@ -1,0 +1,78 @@
+
+.navbar {
+    background-color: #bf9f57;
+    color: black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 5px 20px; 
+    overflow: hidden;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%; 
+    box-sizing: border-box; 
+  }
+  
+  @media (min-width: 768px) {
+    .container {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+  
+  .logoWrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .logo {
+    width: 56px;
+    height: auto;
+  }
+  
+  .navLinks {
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap;
+    margin-left: auto;
+    width: auto; 
+  }
+  
+  .link {
+    color: black;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-right: 20px;
+    text-decoration:underline;
+    transition: color 0.4s;
+    white-space: nowrap; 
+  }
+  
+  .link:hover {
+    color: darkblue;
+    font-weight: bolder;
+    font-size: larger 
+  }
+  
+  @media (max-width: 768px) {
+    .navLinks {
+      flex-direction: column;
+      align-items: center;
+      width: 100%; 
+      padding: 0; 
+    }
+  
+    .link {
+      margin-bottom: 10px;
+      margin-right: 0; 
+      text-align: center; 
+    }
+  }
+  

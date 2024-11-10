@@ -1,0 +1,69 @@
+
+.card {
+    background-color: darkslategrey;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    overflow: hidden;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+
+  .imageWrapper {
+    position: relative;
+    height: 256px;
+    border-radius: 12px;
+    overflow: hidden;
+    display: block;
+  }
+  
+  
+  .image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+  }
+  
+ .content {
+    padding: 24px;
+  }
+  
+ .category {
+    color: whitesmoke; 
+    font-size: 12px;
+    letter-spacing: 0.05em;
+    margin-bottom: 8px;
+  }
+  
+ .title {
+    color: dimgray; 
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+ .price {
+    margin-top: 8px;
+    color: darkgoldenrod; 
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+
+  .link {
+    margin-left: 8px;
+    color: #6B7280; 
+  }
+  
+  .svgIcon {
+    width: 16px;
+    height: 16px;
+  }
+  
